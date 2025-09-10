@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhawani Plastics - Corporate Gifting & Plastics</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+ <!-- Navbar -->
+<header class="bg-white shadow-md fixed w-full top-0 z-50">
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+    
+    <!-- Logo + Brand -->
+    <div class="flex items-center space-x-3">
+      <img src="logo.png" alt="Bhawani Plastics Logo" class="h-12 w-12 animate-bounce">
+      <h1 class="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-transparent bg-clip-text animate-pulse tracking-wide">
+        Bhawani Plastics
+      </h1>
+    </div>
+    
+    <!-- Nav Links -->
+    <nav class="space-x-6 hidden md:flex text-lg font-medium">
+      <a href="#home" class="hover:text-blue-600 transition duration-300">Home</a>
+      <a href="#about" class="hover:text-blue-600 transition duration-300">About</a>
+      <a href="#products" class="hover:text-blue-600 transition duration-300">Products</a>
+      <a href="#catalogues" class="hover:text-blue-600 transition duration-300">Catalogues</a>
+      <a href="#contact" class="hover:text-blue-600 transition duration-300">Contact</a>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <button class="md:hidden bg-blue-600 text-white px-3 py-2 rounded-lg">Menu</button>
+  </div>
+</header>
+
+
+ <!-- Hero Section -->
+<section id="home" class="pt-28 bg-gradient-to-r from-blue-50 via-white to-blue-100">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center px-6 py-20">
+
+    <!-- Left Content -->
+    <div class="flex-1 text-center md:text-left space-y-6">
+      <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">
+        <span class="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-transparent bg-clip-text animate-pulse">
+          Corporate Gifting
+        </span>
+        <br>
+        <span class="text-gray-800"> & Plastic Novelties</span>
+      </h2>
+
+      <p class="text-lg text-gray-600 max-w-lg mx-auto md:mx-0 animate-fade-in">
+        Premium lunch boxes, diaries, keyrings, bags, purses, calendars & more.  
+        <span class="font-semibold text-blue-700">Customized branding solutions</span> that leave a lasting impression.
+      </p>
+
+      <!-- Buttons -->
+      <div class="flex justify-center md:justify-start gap-4">
+        <a href="#products" class="bg-blue-600 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-700 transform hover:scale-105 transition duration-300">
+          🚀 Explore Products
+        </a>
+        <a href="#catalogues" class="bg-white border border-blue-600 text-blue-600 px-6 py-3 rounded-xl shadow hover:bg-blue-50 transform hover:scale-105 transition duration-300">
+          📑 View Catalogues
+        </a>
+      </div>
+    </div>
+
+    <!-- Right Content (Image with animation) -->
+    <div class="flex-1 mt-12 md:mt-0 flex justify-center relative">
+      <div class="relative">
+        <img src="Ganesha.png" alt="Plastic Products" 
+             class="rounded-2xl shadow-2xl transform hover:scale-105 transition duration-500 animate-float">
+
+        <!-- Glow Effect -->
+        <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500 to-pink-500 opacity-30 blur-2xl animate-pulse"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Custom Animations -->
+<style>
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  animation: fade-in 1.5s ease-out forwards;
+}
+</style>
+
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto text-center px-6">
+      <h3 class="text-4xl font-semibold text-gray-800">About Us</h3>
+      <p class="mt-6 text-lg text-gray-600 leading-relaxed">Bhawani Plastics specializes in high-quality plastic products and customized corporate gifting solutions. With years of experience, we help businesses create lasting impressions with personalized gifts.</p>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="py-20 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-4xl font-semibold text-center text-gray-800">Our Products</h3>
+      <p class="text-center mt-4 text-gray-600">We offer a wide range of customized products for businesses and gifting.</p>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10 mt-12">
+        
+        <!-- Example Product -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl p-5 text-center transition">
+          <img src="lunchbos.png" alt="Lunch Box" class="h-44 w-full object-cover rounded-lg">
+          <h4 class="mt-4 font-bold text-gray-700 text-lg">Lunch Boxes</h4>
+          <p class="text-sm text-gray-500">Durable, stylish & customizable lunch boxes.</p>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl p-5 text-center transition">
+          <img src="https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Diary" class="h-44 w-full object-cover rounded-lg">
+          <h4 class="mt-4 font-bold text-gray-700 text-lg">Diaries</h4>
+          <p class="text-sm text-gray-500">Premium corporate diaries with branding.</p>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl p-5 text-center transition">
+          <img src="https://images.pexels.com/photos/1303080/pexels-photo-1303080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Keyring" class="h-44 w-full object-cover rounded-lg">
+          <h4 class="mt-4 font-bold text-gray-700 text-lg">Keyrings</h4>
+          <p class="text-sm text-gray-500">Custom keyrings with company logos.</p>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl p-5 text-center transition">
+          <img src="https://images.pexels.com/photos/179909/pexels-photo-179909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Bag" class="h-44 w-full object-cover rounded-lg">
+          <h4 class="mt-4 font-bold text-gray-700 text-lg">Bags</h4>
+          <p class="text-sm text-gray-500">Trendy office & gifting bags.</p>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl p-5 text-center transition">
+          <img src="ChatGPT Image Sep 7, 2025, 12_40_20 PM.png" alt="Calendar" class="h-44 w-full object-cover rounded-lg">
+          <h4 class="mt-4 font-bold text-gray-700 text-lg">Calendars</h4>
+          <p class="text-sm text-gray-500">Customized corporate calendars.</p>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl p-5 text-center transition">
+          <img src="https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Purse" class="h-44 w-full object-cover rounded-lg">
+          <h4 class="mt-4 font-bold text-gray-700 text-lg">Purses</h4>
+          <p class="text-sm text-gray-500">Elegant purses for corporate gifting.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Catalogues Section -->
+  <section id="catalogues" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h3 class="text-4xl font-semibold text-gray-800">Our Catalogues</h3>
+      <p class="mt-4 text-gray-600">Browse and download our product catalogues for detailed information.</p>
+      
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8 mt-12">
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl p-5 text-center transition">
+          <a href="catalogues/cat 3.pdf" target="_blank" download>
+            <img src="lunchbos.png" alt="Lunch Box Catalogue" class="h-48 w-full object-cover rounded-lg">
+            <h4 class="mt-4 font-bold text-gray-700">Lunch Box Catalogue</h4>
+            <p class="text-sm text-gray-500">📥 Download PDF</p>
+          </a>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl p-5 text-center transition">
+          <a href="catalogues/cat 2.pdf" target="_blank" download>
+            <img src="bottle.png" alt="Bottle Catalogue" class="h-48 w-full object-cover rounded-lg">
+            <h4 class="mt-4 font-bold text-gray-700">Water Bottle Catalogue</h4>
+            <p class="text-sm text-gray-500">📥 Download PDF</p>
+          </a>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl p-5 text-center transition">
+          <a href="catalogues/cat 1.pdf" target="_blank" download>
+            <img src="clocks.png" alt="Clocks Catalogue" class="h-48 w-full object-cover rounded-lg">
+            <h4 class="mt-4 font-bold text-gray-700">Clocks Catalogue</h4>
+            <p class="text-sm text-gray-500">📥 Download PDF</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="mt-12">
+        <a href="catalogues/all-catalogues.zip" download class="bg-blue-600 text-white px-8 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition">
+          ⬇️ Download All Catalogues
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-4xl font-semibold text-gray-800">Contact Us</h3>
+      <p class="mt-4 text-gray-600">Looking for corporate gifts or customized products? Get in touch with us today.</p>
+      
+      <div class="mt-10 bg-white shadow-md rounded-xl p-8 max-w-xl mx-auto text-left">
+        <p class="text-lg font-bold text-gray-800">📌 Owner: Vikas Ahuja</p>
+        <p class="mt-3">📞 <a href="tel:9837310281" class="text-blue-600 hover:underline">+91 98373 10281</a></p>
+        <p class="mt-3">📧 <a href="mailto:bhawani.plastic2011@gmail.com" class="text-blue-600 hover:underline">bhawani.plastic2011@gmail.com</a></p>
+        <p class="mt-3">📍 Moradabad, Uttar Pradesh - 244001, India</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-6 text-center">
+    <p>&copy; 2025 Bhawani Plastics. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
